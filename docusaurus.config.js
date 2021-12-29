@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://skgandikota.github.io',
+  baseUrl: '/facebook-plugin-001/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'skgandikota', // Usually your GitHub org/user name.
+  projectName: 'facebook-plugin-001', // Usually your repo name.
 
   presets: [
     [
@@ -38,7 +38,7 @@ const config = {
       }),
     ],
   ],
-
+  plugins: ["@skgandikota/docusaurus-plugin-facebookchat"],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -112,6 +112,9 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      facebookChat: {
+        page_id: "100264255877775"
+      }
     }),
 };
 
