@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfacebook_plugin_001=self.webpackChunkfacebook_plugin_001||[]).push([[257],{8447:function(l){l.exports=JSON.parse('{"allTagsPath":"/facebook-plugin-001/blog/tags","slug":"/facebook-plugin-001/blog/tags/hello","name":"hello","count":2,"permalink":"/facebook-plugin-001/blog/tags/hello"}')}}]);
